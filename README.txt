@@ -1,13 +1,9 @@
-Tsunami Prediction (MDS Datathon)
-================================
+## Tsunami Prediction (MDS Datathon)
 
 This repository contains code, notebooks, and artifacts for a tsunami
 prediction datathon project.
 
---------------------------------------------------
-Repository structure
---------------------------------------------------
-
+## Repository structure
 .
 ├── data/
 │   ├── raw/                  Raw Kaggle data (train/test/sample_submission)
@@ -18,9 +14,7 @@ Repository structure
 │   └── tsunami_prediction/   Reusable Python code (package)
 └── submissions/              Submission CSVs
 
---------------------------------------------------
-Data
---------------------------------------------------
+## Data
 
 Place the Kaggle files in:
 
@@ -32,9 +26,7 @@ Note:
 If this repository is public, it is recommended NOT to commit raw data.
 Use .gitignore to exclude data/raw/.
 
---------------------------------------------------
-Environment and dependencies
---------------------------------------------------
+## Environment and dependencies
 
 Using venv:
 
@@ -48,9 +40,7 @@ conda create -n tsunami python=3.12
 conda activate tsunami
 pip install -r requirements.txt
 
---------------------------------------------------
-Running the project
---------------------------------------------------
+## Running the project
 
 If the notebook logic has been refactored into Python modules under src/,
 run:
@@ -58,28 +48,20 @@ run:
 PYTHONPATH=src python -m tsunami_prediction.train
 PYTHONPATH=src python -m tsunami_prediction.predict
 
---------------------------------------------------
-Notebooks
---------------------------------------------------
+## Notebooks
 
 Main notebook:
 - notebooks/01_datathon_tsunami_prediction.ipynb
 
---------------------------------------------------
-Reports
---------------------------------------------------
+## Reports
 
 - reports/datathon_tsunami_prediction.pdf
 
---------------------------------------------------
-Submissions
---------------------------------------------------
+## Submissions
 
 - submissions/submission_Nov23.csv
 
---------------------------------------------------
-License
---------------------------------------------------
+## License
 
 See LICENSE
 
