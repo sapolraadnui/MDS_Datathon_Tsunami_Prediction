@@ -4,7 +4,7 @@ This repository contains code, notebooks, and artifacts for a tsunami
 prediction datathon project.
 
 ## Repository structure
-.
+``` bash
 ├── data/
 │   ├── raw/                  Raw Kaggle data (train/test/sample_submission)
 │   └── sample/               Small sample data (optional)
@@ -13,7 +13,7 @@ prediction datathon project.
 ├── src/
 │   └── tsunami_prediction/   Reusable Python code (package)
 └── submissions/              Submission CSVs
-
+```
 ## Data
 
 Place the Kaggle files in:
