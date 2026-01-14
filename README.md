@@ -5,11 +5,15 @@ prediction datathon project.
 
 ## Repository structure
 ``` bash
+.
+├── LICENSE
+├── README.md
 ├── data/
 │   ├── raw/                  Raw Kaggle data (train/test/sample_submission)
 │   └── sample/               Small sample data (optional)
 ├── notebooks/                Exploration and experiments
 ├── reports/                  PDF writeup / report
+├── requirements.txt          Python dependencies
 ├── src/
 │   └── tsunami_prediction/   Reusable Python code (package)
 └── submissions/              Submission CSVs
@@ -51,7 +55,7 @@ PYTHONPATH=src python -m tsunami_prediction.predict
 ## Notebooks
 
 Main notebook:
-- notebooks/01_datathon_tsunami_prediction.ipynb
+- notebooks/datathon_tsunami_prediction.ipynb
 
 ## Reports
 
@@ -64,4 +68,3 @@ Main notebook:
 ## License
 
 See LICENSE
-
