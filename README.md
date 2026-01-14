@@ -1,4 +1,4 @@
-## Tsunami Prediction (MDS Datathon)
+# Tsunami Prediction (MDS Datathon)
 
 This repository contains code, notebooks, and artifacts for a tsunami
 prediction datathon project.
